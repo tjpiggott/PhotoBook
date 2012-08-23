@@ -1,0 +1,14 @@
+﻿<local:MainViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="PhotoBook.SampleData.c__users_thomas_desktop_slideshow_repo_picturebook_picturebook_sampledata_mainviewmodelsampledata_xaml">
+
+    <local:MainViewModel.slides>
+        <local:Slide id="1" title="title 1" description="Maecenas praesent accumsan bibendum" image="/Images/sampleImages/sampleImage1.jpg" />
+        <local:Slide id="2" title="title 2" description="Pharetra placerat pulvinar sagittis" image="/Images/sampleImages/sampleImage2.jpg" />
+        <local:Slide id="3" title="title 3" description="Accumsan bibendum dictumst eleifend" image="/Images/sampleImages/sampleImage3.jpg" />
+        <local:Slide id="4" title="title 4" description="Pulvinar sagittis senectus sociosqu" image="/Images/sampleImages/sampleImage4.jpg" />
+        <local:Slide id="5" title="title 5" description="Dictumst eleifend facilisi faucibus" image="/Images/sampleImages/sampleImage5.jpg" />
+    </local:MainViewModel.slides>
+
+</local:MainViewModel>
