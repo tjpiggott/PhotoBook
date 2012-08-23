@@ -9,17 +9,17 @@ namespace PhotoBook
 {
     public partial class App : Application
     {
-        private static MainViewModel viewModel = null;
+        private static EditViewModel viewModel = null;
 
         public static WriteableBitmap CapturedImage;
 
-        public static MainViewModel ViewModel
+        public static EditViewModel ViewModel
         {
             get
             {
                 // Delay creation of the view model until necessary
                 if (viewModel == null)
-                    viewModel = new MainViewModel();
+                    viewModel = new EditViewModel();
 
                 return viewModel;
             }

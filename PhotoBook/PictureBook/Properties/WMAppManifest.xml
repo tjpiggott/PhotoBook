@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
   <App xmlns="" ProductID="{844fb7a1-3f82-452d-bf46-19c2d9990d69}" Title="PhotoBook" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="PictureBook author" Description="Sample description" Publisher="PictureBook">
-    <IconPath IsRelative="true" IsResource="false">Images\icons\pictureBookIcon.png</IconPath>
+    <IconPath IsRelative="true" IsResource="false">Images\Icons\photoBookIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES" />
       <Capability Name="ID_CAP_IDENTITY_DEVICE" />
@@ -24,7 +24,7 @@
     <Tokens>
       <PrimaryToken TokenID="PictureBookToken" TaskName="_default">
         <TemplateType5>
-          <BackgroundImageURI IsRelative="true" IsResource="false">Images\icons\pictureBookTile.png</BackgroundImageURI>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Images\Icons\photoBookTile.png</BackgroundImageURI>
           <Count>0</Count>
           <Title>PhotoBook</Title>
         </TemplateType5>

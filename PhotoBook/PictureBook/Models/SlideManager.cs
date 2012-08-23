@@ -1,7 +1,8 @@
 using System.Collections.ObjectModel;
 using System.Windows.Media.Imaging;
+using PhotoBook.ViewModels;
 
-namespace PhotoBook.ViewModels
+namespace PhotoBook.Models
 {
     public class SlideManager
     {

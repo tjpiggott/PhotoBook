@@ -72,7 +72,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PictureBook\PictureBook.csproj">
+    <ProjectReference Include="..\PictureBook\PhotoBook.csproj">
       <Project>{887D9D2E-622E-446D-A3DC-E2B548E13D14}</Project>
       <Name>PictureBook</Name>
     </ProjectReference>

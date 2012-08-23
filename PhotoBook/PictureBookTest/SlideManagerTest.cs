@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using PhotoBook.Models;
 using PhotoBook.ViewModels;
 
 namespace PictureBookTest
